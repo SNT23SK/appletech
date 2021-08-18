@@ -8,7 +8,6 @@ import "./App.css";
 function App() {
 	return (
 		<>
-			<h1>Yttttt</h1>
 			<div className="wrapper-header">
 				<header className="header">
 					<div className="header__logo">
