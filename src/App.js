@@ -41,14 +41,14 @@ function App(props) {
 			</div>
 			<div className="wrapper-content">
 				<div className="content__goods">
-					<ProductBlock></ProductBlock>
-					<ProductBlock></ProductBlock>
-					<ProductBlock></ProductBlock>
-					<ProductBlock></ProductBlock>
-					<ProductBlock></ProductBlock>
-					<ProductBlock></ProductBlock>
-					<ProductBlock></ProductBlock>
-					<ProductBlock></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
+					<ProductBlock price={8500} discount={9500}></ProductBlock>
 				</div>
 			</div>
 		</>

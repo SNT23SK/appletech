@@ -2,7 +2,7 @@ import React from "react";
 import small_like_icon from "../assets/img/small_like.svg";
 import macbook_png from "../assets/img/mac.png";
 
-function ProductBlock() {
+function ProductBlock(props) {
 	return (
 		<div className="content__block">
 			<img className="block__like_btn" src={small_like_icon} alt="like" />
@@ -12,8 +12,8 @@ function ProductBlock() {
 			</p>
 			<div className="content__block_buy">
 				<div className="block__price">
-					<p className="discount">97000 руб</p>
-					<p className="price">85000 руб</p>
+					<p className="discount">{props.discount} руб</p>
+					<p className="price">{props.price} руб</p>
 				</div>
 				<div>
 					<button className="buy_btn">Купить</button>
